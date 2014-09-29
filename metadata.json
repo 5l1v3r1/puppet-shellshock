@@ -1,0 +1,45 @@
+{
+    "name": "renanvicente-shellshock",
+    "version": "0.0.2",
+    "author": "Renan Vicente",
+    "license": "Licensed under (Apache 2.0)",
+    "summary": "Puppet module to fix shellshock vulnerability",
+    "source": "https://github.com/renanvicente/puppet-shellshock",
+    "project_page": "(http://www.renanvicente.com)",
+    "issues_url": "https://github.com/renanvicente/puppet-shellshock/issues",
+    "tags": [
+        "bash",
+        "shellshock"
+    ],
+    "operatingsystem_support": [
+        {
+            "operatingsystem": "RedHat",
+            "operatingsystemrelease": [
+                "5.0",
+                "6.0"
+            ]
+        },
+        {
+            "operatingsystem": "Ubuntu",
+            "operatingsystemrelease": [
+                "12.04",
+                "14.04",
+                "14.10"
+            ]
+        },
+        {
+            "operatingsystem": "Debian",
+            "operatingsystemrelease": [
+                "5.0",
+                "6.0",
+                "7.0"
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "name": "puppetlabs/apt",
+            "version_requirement": ">=1.0.0"
+        }
+    ]
+}

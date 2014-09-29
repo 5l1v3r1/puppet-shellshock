@@ -1,5 +1,5 @@
 name    'renanvicente-shellshock'
-version '0.0.1'
+version '0.0.2'
 author  'Renan Vicente'
 license 'Apache License Version 2.0'
 project_page 'http://www.renanvicente.com'
