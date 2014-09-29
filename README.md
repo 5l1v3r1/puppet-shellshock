@@ -17,7 +17,7 @@ Usage
 Facter provided
 
 ```bash
-# facter -p shellshock
+facter -p shellshock
 not_vulnerable
 ```
 
